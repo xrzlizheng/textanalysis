@@ -66,10 +66,6 @@ def read_db(condition):
     #连接数据库
     #conn = pymysql.connect(host='*******',port= ***,user = '***',passwd='******',db='tbl*****',charset='utf8') #db：库名
     dbspars = {'lzdb':{'host':'127.0.0.1','port' :3306,'db':'lz_fy','user':'root','password':'123456','charset':'utf8mb4'}
-    ,'scdb':{'host':'10.77.25.27','port' :8066,'db':'fysurvey_db2','user':'zhuam_fysurvey2','password':'diramdir','charset':'utf8mb4'}
-    ,'test':{'host':'192.168.2.182','port' :8066,'db':'fysurvey2','user':'tom_yangy','password':'6A71bBba188913679d89284b15deCf24','charset':'utf8mb4'}
-    ,'capese':{'host':'192.168.15.154','port' :3306,'db':'capse_survey','user':'root','password':'123456','charset':'utf8mb4'}
-
     }
     try:
         dbspar = dbspars['scdb']
