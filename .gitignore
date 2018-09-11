@@ -1,0 +1,10 @@
+cws.model
+md5.txt
+ner.model
+parser.model
+pisrl.model
+pisrl_win.model
+pos.model
+version
+/ltp_data_v3.4.0/*.model
+/ltp_data_v3.4.0
