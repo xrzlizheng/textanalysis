@@ -19,10 +19,10 @@ import sensenlp as snlp
 import pymysql
 #将每行更新或写入数据库中
 def doupinsert(df,sql_insert):
-    dbspars = {'lzdb':{'host':'127.0.0.1','port' :3306,'db':'lz_fy','user':'root','password':'123456','charset':'utf8mb4'}
-    ,'scdb':{'host':'10.77.25.27','port' :8066,'db':'fysurvey_db2','user':'zhuam_fysurvey2','password':'diramdir','charset':'utf8mb4'}
-    ,'test':{'host':'192.168.2.182','port' :8066,'db':'fysurvey2','user':'tom_yangy','password':'6A71bBba188913679d89284b15deCf24','charset':'utf8mb4'}
-    ,'capese':{'host':'192.168.15.154','port' :3306,'db':'capse_survey','user':'root','password':'123456','charset':'utf8mb4'}
+    dbspars = {'lzdb':{'host':'127.0.0.1','port' :3306,'db':'lz_fy','user':'root','password':'12##6','charset':'utf8mb4'}
+    ,'scdb':{'host':'10.##','port' :8066,'db':'###2','user':'zh###','password':'###','charset':'utf8mb4'}
+    ,'test':{'host':'192###','port' :8066,'db':'####','user':'#####','password':'#############','charset':'utf8mb4'}
+    ,'capese':{'host':'192##54','port' :3306,'db':'c###y','user':'root','password':'12##','charset':'utf8mb4'}
 
     }
     try:
